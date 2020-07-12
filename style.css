@@ -1,0 +1,18 @@
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+.intro {
+    color: hotpink;
+    font-weight: bold;
+}
+
+img {
+    max-width: 250px;
+}
