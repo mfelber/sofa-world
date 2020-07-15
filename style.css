@@ -1,3 +1,7 @@
+/* toto je komentar, vsetko co je medzi limitkami a hviezdickami je ignorovane*/
+/* sluzi to ako komentad a vysvetlenie naco je dany kus kodu, teda ked sa na to pozres */
+/* o tyzden tak aby si tomu rozumel */
+
 .content {
     max-width: 500px;
     margin: auto;
@@ -15,5 +19,40 @@ p {
 
 img {
     max-width: 250px;
+}
+
+/* UL je skratka pre Unorder List = neusporiadany zoznam */
+/* LI je skratka pre List Item = polozka v zozname */
+
+
+/* definujem ze pre kazdy LI v UL bude stvorec na zaciatku */
+
+ul {
+    list-style-type: square;
+}
+
+/* 'li a' je zapis ze ak medzi <li> a </li> sa nachadza <a></a> tak to ma mat 18px a nema to mat podciarknuty text*/
+/* normalne kazdy link <a></a> ma text ktory je podciarknuty */
+
+li a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* tu hovorim ze <a> v li ma byt modre */
+
+li a {
+    color: blue;
+}
+
+/* tu hovorim ze ak som klikol uz na link <a>, teda ze dany link som navstivil tak ho zafarbi tiez na modro */
+
+li a:checked {
+    color: blue;
+}
+
+/* tu hovorim ze link <a> ak myskou prejdem po nom, tak zafarbi na cerveno */ 
+li a:hover {
+    color: red;
 }
 
