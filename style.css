@@ -5,13 +5,18 @@
 .content {
     max-width: 500px;
     margin: auto;
-	background-color: green;
-	padding: 15px; /* urobi 15px okraj*/
+    background-color:green;
+    padding: 15px; /* urobi 15px okraj*/
+    border-radius: 15px;
+    color:white;
+   
+   
 }
 
 .content h1 {
 	text-align: center;
 }
+
 
 
 p {
