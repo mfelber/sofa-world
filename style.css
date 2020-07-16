@@ -5,7 +5,14 @@
 .content {
     max-width: 500px;
     margin: auto;
+	background-color: green;
+	padding: 15px; /* urobi 15px okraj*/
 }
+
+.content h1 {
+	text-align: center;
+}
+
 
 p {
     font-family: Arial, Helvetica, sans-serif;
