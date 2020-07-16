@@ -8,17 +8,15 @@
     background-color:green;
 	
 }
-.content1{
-    
-    max-width: 500px;
-    margin: auto;
-	background-color: white
-} 
-
+.content1 {
+    background-color: white;
+    text-align: center;
+}
 
 .content h1 {
 	text-align: center;
 }
+
 
 
 p {
