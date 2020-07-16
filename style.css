@@ -3,11 +3,18 @@
 /* o tyzden tak aby si tomu rozumel */
 
 .content {
+   
+    margin:auto;
+    background-color:green;
+	
+}
+.content1{
+    
     max-width: 500px;
     margin: auto;
-	background-color: green;
-	padding: 15px; /* urobi 15px okraj*/
-}
+	background-color: white
+} 
+
 
 .content h1 {
 	text-align: center;
@@ -22,6 +29,7 @@ p {
 .intro {
     color: black;
     font-weight: bold;
+    text-align: center;
 }
 
 img {
@@ -62,7 +70,6 @@ li a:checked {
 li a:hover {
     color: red;
 }
-
 
 
 
