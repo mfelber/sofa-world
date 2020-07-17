@@ -1,0 +1,67 @@
+#one {
+    border-radius: 15px;
+    height:100px;
+    width: auto;
+    background-color: rgb(247, 222, 2);
+
+}
+
+#two {
+    height:500px;
+    width: 250px;
+    background-color:white ;
+    border-radius: 15px;
+    float: left;
+    margin-top: 15px;
+}
+#two ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+
+#two li{
+    display: block;
+    color: black;
+    padding: 7px;
+    text-decoration: none;
+}
+
+#two li a {
+    transition: ease 0.2s;
+}
+
+h3{
+    padding: 7px 70px ;
+    font-size: 20px;
+}
+
+#three {
+    height:795px;
+    width: 1600px;
+    background-color: grey;
+    border-radius: 15px;
+    margin-top: 15px;
+    float: right;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+
+#four {
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    float: left;
+    font-weight: bold;
+
+}
+
+#four p {
+    padding: 15px;
+}
+

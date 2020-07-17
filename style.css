@@ -5,7 +5,7 @@
 .content {
    
     margin:auto;
-    background-color:green;
+    background-color: black;
 	
 }
 .content1 {
@@ -28,6 +28,8 @@ p {
     color: black;
     font-weight: bold;
     text-align: center;
+    padding: 30px ;
+
 }
 
 img {
@@ -55,7 +57,8 @@ li a {
 /* tu hovorim ze <a> v li ma byt modre */
 
 li a {
-    color: blue;
+    color: black;
+    font-weight: bold;
 }
 
 /* tu hovorim ze ak som klikol uz na link <a>, teda ze dany link som navstivil tak ho zafarbi tiez na modro */
@@ -68,6 +71,3 @@ li a:checked {
 li a:hover {
     color: red;
 }
-
-
-
