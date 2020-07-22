@@ -92,11 +92,56 @@
         echo 'Cena 299€';
         echo '</p>';
 
-        echo '<img src="https://www.ikea.com/sk/sk/images/products/klippan-2-seat-sofa-bomstad-black__0562963_PE663653_S5.JPG?f=s" alt="Italian Trulli blablala">';
+        echo '<img src="https: //www.ikea.com/sk/sk/images/products/klippan-2-seat-sofa-bomstad-black__0562963_PE663653_S5.JPG?f=s" alt="Italian Trulli blablala">';
+
+    }elseif ($product == 'chair-1') {
+        echo '<h2 class="intro" style="color:black; text-align: center;">kreslo 1</h2>';
+
+        echo '<p class="intro">POÄNG- Hojdacie kreslo, hnedá, Glose smotanová <br>';
+        echo 'Cena 189€';
+        echo '</p>';
+
+        echo '<img src="https://www.ikea.com/sk/sk/images/products/poaeng-rocking-chair__0153103_PE311394_S5.JPG?f=s" alt="Italian Trulli blablala">';
+
+    }elseif ($product == 'chair-2') {
+        echo '<h2 class="intro" style="color:black; text-align: center;">kreslo 2</h2>';  
+        
+        echo '<p class="intro">GRÖNLID- Kreslo, Kimstad tmavohnedá <br>';
+        echo 'Cena 249€';
+        echo '</p>';
+
+        echo '<img src="https://www.ikea.com/sk/sk/images/products/groenlid-armchair__0604403_PE681242_S5.JPG?f=s" alt="Italian Trulli blablala">';
+    
+    }elseif ($product == 'chair-3') {    
+        echo '<h2 class="intro" style="color:black; text-align: center;">kreslo 3</h2>';
+        
+        echo '<p class="intro">LYCKSELE HÅVET- Rozkladacie kreslo, Vallarum sivá <br>';
+        echo 'Cena 199.90€';
+        echo '</p>';
+
+        echo '<img src="https://www.ikea.com/sk/sk/images/products/lycksele-havet-chair-bed__0404095_PE570023_S5.JPG?f=s" alt="Italian Trulli blablala">';
+
+    }elseif ($product == 'chair-4') {
+        echo '<h2 class="intro" style="color:black; text-align: center;"> kreslo 4</h2>';
+
+        echo '<p class="intro">BUSKBO-Kreslo, ratan <br>';
+        echo 'Cena 169€';
+        echo '</p>';
+
+        echo '<img src="https://www.ikea.com/sk/sk/images/products/buskbo-armchair__0700959_PE723853_S5.JPG?f=s" alt="Italian Trulli blablala">';
+
+    }elseif ($product == 'chair-5') {
+        echo '<h2 class="intro" style="color: black; text-align: center;"> kreslo 5</h2>';
+
+        echo '<p class="intro">ULRIKSBERG- Kreslo, ratan, antracit <br>';
+        echo 'Cena 109€';
+        echo '</p>';
+        
+        echo '<img src="https://www.ikea.com/sk/sk/images/products/ulriksberg-armchair__0672896_PE716932_S5.JPG?f=s" alt="Italian Trulli blablala">';
 
     } else {
-        echo "nic<br>";
-        echo "TODO dopln udaje pre product=$product";
+       echo 'Najlepsi internetovy predajca nabytku';
+
     }
 
 ?>

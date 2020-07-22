@@ -14,9 +14,14 @@
         }
         echo "</ul>";
     } elseif ($category == 'chair') {
+        echo '<ul>';
+        $color = "kozenna";
+        for ($x =1; $x <=5; $x++) {
+            echo "<li><a href=\"index.php?category=$category&product=chair-$x\">chair $x $color</a></li>";
+        }
+        echo '</ul>';
 
-        echo "TODO"; // TODO
-
+            
     } else {
         include 'category.php';
     }
