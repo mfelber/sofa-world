@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 <head>
 
-<body>
+<body >
     <header>
     <nav>
 
@@ -23,15 +23,14 @@
     </ul>
     
     </nav>
-    <h1>Menu</h1>
-</header>
-<section>
-    <div>a</div>
+    <h1>Location</h1>
+    </header>
+    <section>
+    <div>a</a></div>
     <div>b</div>
-    <div>c</div>
-</section>
-<section>lower-section</section>
-<footer>footer</footer>
+    <div>c</div></section>
+    <section>lower-section</section>
+    <footer>footer</footer>
 
 
 </html>
