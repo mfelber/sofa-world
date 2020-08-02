@@ -7,6 +7,7 @@ body {
 
 }
 
+/* Header */
 header {
     background-color: black;
     background-image: url("img/background.jpg");
@@ -25,6 +26,11 @@ header a{
     margin-top: 40px;
 }
 
+header .mobile{
+    display:none;
+} 
+
+
 header .logo a {
     background-image: url("img/logo.png");
     background-size:150px ;
@@ -33,17 +39,71 @@ header .logo a {
     height:300px;
     position: relative;
     text-indent: -9999999px ;
-    left: 87px;
+    left: 20px;
     top: -40px;
-    width: 300px;
+    width:200px;
 }
 
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+   display: inline-block;
+   padding: 3px;
+   margin-left: 15px;
+}
+
+li:first-child {
+    margin-left: 0;
+    
+}
+
+li a {
+    font-size:15px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+
+/*responisive rules*/
+@media screen and (max-width: 715px) {
+    header{
+        height: 250px;
+        background-position:  0 -30px;
+        
+    }
+    header .mobile{
+        display: inline-block;
+    }
+    header .desktop{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header{
+        height: 200px;
+        background-position: 0 -0px;
+    }
+    header .logo a {
+        background-size: 100px ;
+        left: 40px;
+     }
+
+}
+
+
+/*Features*/
 .features {
     background: white;
     color: grey;
     padding: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .features figure {
     margin: auto;
@@ -57,37 +117,14 @@ header .logo a {
     border-radius: 50%;
     box-shadow: grey 0 0 10px;
     width: 200px;
-
-    
 }
 
+
+/*Footer*/
 footer {
     background:  black;
+    color: grey;
+    font-size: 12px;
     padding: 10px 20px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-li {
-   display: inline-block;
-   padding: 3px;
-   margin-left: 15px;
-}
-
-li:first-child {
-    margin-left: 0;
-    
-}
-
-
-
-li a {
-    font-size:15px;
-    text-decoration: none;
-    color: yellow;
-    font-weight: bold;
+    text-align: center;
 }

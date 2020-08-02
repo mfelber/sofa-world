@@ -18,9 +18,11 @@
     
     <li><a href="index.php">Home</a></li>
     <li><a href="menu.php">Menu</a></li>
+    <li class="mobile"><a href="location.html">Location</a></li>
+    <li class="mobile"><a href="contact.html">Contact</a></li>
     <li class="logo"><a href="index.php">Sofa World</a></li>
-    <li><a href="location.php">Location</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li class="desktop"><a href="location.html">Location</a></li>
+    <li class="desktop"><a href="contact.html">Contact</a></li>
     
     </ul>
     
@@ -51,7 +53,9 @@
 
 </section>
 
-<footer>footer</footer>
+<footer>
+    123 Main Street,CA · 555-555-555 · blabbla@gmail.com
+</footer>
 
 
 </html>
