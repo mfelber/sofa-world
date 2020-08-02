@@ -27,14 +27,14 @@ header a{
 
 header .logo a {
     background-image: url("img/logo.png");
-    background-size:200px ;
+    background-size:150px ;
     background-repeat:  no-repeat;
     display: inline-block;
     height:300px;
     position: relative;
     text-indent: -9999999px ;
-    left: 50px;
-    top: -60px;
+    left: 87px;
+    top: -40px;
     width: 300px;
 }
 
