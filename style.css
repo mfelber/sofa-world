@@ -30,18 +30,17 @@ header .mobile{
     display:none;
 } 
 
-
 header .logo a {
     background-image: url("img/logo.png");
     background-size:150px ;
     background-repeat:  no-repeat;
     display: inline-block;
-    height:300px;
+    height:150px;
     position: relative;
     text-indent: -9999999px ;
-    left: 20px;
-    top: -40px;
-    width:200px;
+    left: 10px;
+    top: -60px;
+    width:170px;
 }
 
 nav ul {
@@ -95,7 +94,6 @@ li a {
 
 }
 
-
 /*Features*/
 .features {
     background: white;
@@ -119,10 +117,9 @@ li a {
     width: 200px;
 }
 
-
 /*Footer*/
 footer {
-    background:  black;
+    background: black;
     color: grey;
     font-size: 12px;
     padding: 10px 20px;

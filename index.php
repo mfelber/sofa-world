@@ -11,30 +11,32 @@
 
 <body>
     <header>
-        <title>Sofa World</title>
-    <nav>
 
-    <ul>
+        <nav>
+        <ul>
     
-    <li><a href="index.php">Home</a></li>
-    <li><a href="menu.php">Menu</a></li>
-    <li class="mobile"><a href="location.html">Location</a></li>
-    <li class="mobile"><a href="contact.html">Contact</a></li>
-    <li class="logo"><a href="index.php">Sofa World</a></li>
-    <li class="desktop"><a href="location.html">Location</a></li>
-    <li class="desktop"><a href="contact.html">Contact</a></li>
-    
-    </ul>
-    
-    </nav>
-</header>
-<section class="features">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="menu.php">Menu</a></li>
+        <li class="mobile"><a href="location.html">Location</a></li>
+        <li class="mobile"><a href="contact.html">Contact</a></li>
+        <li class="logo"><a href="index.php">Sofa World</a></li>
+        <li class="desktop"><a href="location.html">Location</a></li>
+        <li class="desktop"><a href="contact.html">Contact</a></li>
+        
+        </ul>
+        </nav>
+    </header>
+    <section class="features">
     <figure>
-        <img src="img/sofa.jpg" alt="sofa">  
-        <figcaption>Sofas</figcaption>  
+        <a href="sofas.html">
+            <img src="img/sofa.jpg" alt="sofa">
+        </a>  
+        <figcaption>sofas</figcaption> 
     </figure>
     <figure>
-        <img src="img/seat.jpg" alt="chair">  
+        <a href="seats.html">
+            <img src="img/seat.jpg" alt="chair">
+        </a>  
         <figcaption>Seats</figcaption>  
     </figure>
     <figure>
@@ -49,10 +51,8 @@
         <img src="img/chair.jpg" alt="chair">  
         <figcaption>Chairs</figcaption>  
     </figure>
-
-
-</section>
-
+    </section>
+</body>
 <footer>
     123 Main Street,CA · 555-555-555 · blabbla@gmail.com
 </footer>
