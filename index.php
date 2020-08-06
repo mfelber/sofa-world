@@ -27,7 +27,7 @@
     </header>
     <section class="features">
     <figure>
-        <a href="sofas.html">
+        <a href="sofas.php">
             <img src="img/sofa.jpg" alt="sofa">
         </a>  
         <figcaption>sofas</figcaption> 
