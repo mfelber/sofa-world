@@ -19,6 +19,18 @@ header {
     text-align: center;
 }
 
+.header1 {
+    background-color: black;
+    background-image: url("img/background.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-position: 0.8cm;
+    height:1000px;    
+    padding:20px;
+    text-align: center;
+}
+
+    
 header a{
     color: white;
     text-decoration:none;
@@ -67,6 +79,7 @@ li a {
     font-weight: bold;
 }
 
+
 /*responisive rules*/
 @media screen and (max-width: 715px) {
     header{
@@ -96,18 +109,35 @@ li a {
 
 /*Features*/
 .features {
-    background: white;
+    background-color: white;
     color: grey;
     padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.features-product {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
 .features figure {
     margin: auto;
     text-align: center;
     text-transform: uppercase;
     width: 200px;
+}
+
+.features-product figure {
+    text-align: auto; 
+    font-weight: bold;
+    width: 180px; 
+    
 }
 
 .features figure img{
@@ -116,6 +146,14 @@ li a {
     box-shadow: grey 0 0 10px;
     width: 200px;
 }
+
+.features-product figure img {
+    border: 2px solid pink;
+    border-radius: 10%;
+    box-shadow: plum 0 0 20px;
+    width: 200px;    
+}
+
 
 /*Footer*/
 footer {

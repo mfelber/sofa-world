@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="layout.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 <head>
 
@@ -16,7 +15,7 @@
         <ul>
     
         <li><a href="index.php">Home</a></li>
-        <li><a href="menu.php">Menu</a></li>
+        <li><a href="menu1.php">Menu</a></li>
         <li class="mobile"><a href="location.html">Location</a></li>
         <li class="mobile"><a href="contact.html">Contact</a></li>
         <li class="logo"><a href="index.php">Sofa World</a></li>
@@ -28,7 +27,7 @@
     </header>
     <section class="features">
     <figure>
-        <a href="sofas.html">
+        <a href="sofa.php">
             <img src="img/sofa.jpg" alt="sofa">
         </a>  
         <figcaption>sofas</figcaption> 
