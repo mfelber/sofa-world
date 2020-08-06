@@ -67,6 +67,7 @@ li a {
     font-weight: bold;
 }
 
+
 /*responisive rules*/
 @media screen and (max-width: 715px) {
     header{
