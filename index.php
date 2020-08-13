@@ -14,7 +14,7 @@
         <nav>
         <ul>
     
-        <li><a href="index.php">Home</a></li>
+        <li><a href="index.php">Domov</a></li>
         <li><a href="menu1.php">Menu</a></li>
         <li class="mobile"><a href="location.html">Location</a></li>
         <li class="mobile"><a href="contact.html">Contact</a></li>
