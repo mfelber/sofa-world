@@ -9,68 +9,52 @@
 <head>
 
 <body>
-    <header class="header1">
-     
-    
-        <nav>
-        <ul>
-    
-        <li><a href="index.php">Home</a></li>
-        <li><a href="menu1.php">Menu</a></li>
-        <li class="mobile"><a href="location.html">Location</a></li>
-        <li class="mobile"><a href="contact.html">Contact</a></li>
-        <li class="logo"><a href="index.php">Sofa World</a></li>
-        <li class="desktop"><a href="location.html">Location</a></li>
-        <li class="desktop"><a href="contact.html">Contact</a></li>
-        
-        </ul>
-        </nav>
-        <section class="features-product">
-              <figure>
-                  <a href = "sofa1.php" >
-                     <img src="https://www.ikea.com/sk/sk/images/products/friheten-corner-sofa-bed-with-storage__0175610_PE328883_S5.JPG?f=g" alt="sofa">
-                   <figcaption> FRIHETEN </figcaption>
-           </figure>
+      <?php include('header.php'); ?>
+
+      <section class="features-product">
+      <?php
+
+        include_once('product.php');
+
+
+        // Show detail of the sofa
+        if (isset($_GET['product'])) {
+          $product = $_GET['product'];
+
+          $img =  $product_table[$product]["img"];
+          echo "<img src=\"$img\" alt=\"sofa\">";
+
+          $name = $product_table[$product]["name"];
+          echo "<figcaption>$name</figcaption>";
          
-           <figure>
-                     <img src="https://www.ikea.com/sk/sk/images/products/norsborg-3-seat-sofa-edum-bright-green-metal__0537799_PE651332_S5.JPG?fg" alt="sofa">
-                   <figcaption> NORSBORG </figcaption>
-           </figure>
+          $price = $product_table[$product]["price"];
+          echo "<span>$price EUR</span>";
 
-           <figure>
-                     <img src="https://www.ikea.com/sk/sk/images/products/soederhamn-corner-sofa-4-seat__0802739_PE768577_S5.JPG?f=xs" alt="sofa">
-                   <figcaption> SÖDERHAMN </figcaption>
-           </figure>
+          $description = $product_table[$product]["description"];
+          echo "<span>$description</span>";
 
-           <figure>
-                     <img src="https://www.ikea.com/sk/sk/images/products/lidhult-corner-sofa-4-seat-lejde-red-brown__0620089_PE689400_S5.JPG?f" alt="sofa">
-                   <figcaption> LIDHULT </figcaption>
-           </figure>
+        // Show list of all sofas
+        } else {
+          for ($x = 1; $x <= 5; $x++) { 
+            echo "<figure>";
+            echo "<a href =\"sofa.php?product=sofa-$x\">";
 
-           <figure>
-                     <img src="https://www.ikea.com/sk/sk/images/products/lidhult-corner-sofa-4-seat-lejde-red-brown__0620089_PE689400_S5.JPG?f" alt="sofa">
-                   <figcaption> LIDHULT </figcaption>
-           </figure>
+            $img =  $product_table["sofa-".$x]["img"];
+            echo "<img src=\"$img\" alt=\"sofa\">";
+            echo "</a>";
 
-
-           
-
-       
-
-        
-    
-    
-    
-    
-    
-    </header>
-
-
-    
-    
+            $name = $product_table["sofa-".$x]["name"];
+            echo "<figcaption>$name</figcaption>";
+            echo "</figure>";
+          }
+        }
+      ?>
+      </section>
 
 </body>
-
+<footer>
+    123 Main Street,CA · 555-555-555 · blabbla@gmail.com
+</footer>
 
 
 </html>

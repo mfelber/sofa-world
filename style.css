@@ -83,10 +83,15 @@ li a {
 /*responisive rules*/
 @media screen and (max-width: 715px) {
     header{
-        height: 250px;
-        background-position:  0 -30px;
-        
+        background-position:  0 -10px;
+        background-repeat: no-repeat;
+        height: 400px;
     }
+    header .logo a {
+        background-size: 100px ;
+        margin-top: 70px;
+        left: 20px;
+     }
     header .mobile{
         display: inline-block;
     }
@@ -95,17 +100,42 @@ li a {
     }
 }
 
+
 @media screen and (max-width: 500px) {
     header{
-        height: 200px;
+        height: 190px;
         background-position: 0 -0px;
+        background-repeat: no-repeat;
     }
     header .logo a {
         background-size: 100px ;
-        left: 40px;
+        margin-top: 70px;
+        left: 20px;
      }
+    
 
 }
+
+@media screen and (max-width: 400px){
+    header{
+        background-repeat: no-repeat;
+
+        background-size: 400px;
+        height: 180px;
+
+    }
+    header .logo a {
+        background-size: 70px ;
+        margin-top: 70px;
+        left:45px;
+     }
+     li a {
+        font-size:10px;
+    }
+}
+
+
+
 
 /*Features*/
 .features {

@@ -9,28 +9,15 @@
 <head>
 
 <body>
-    <header>
-
-        <nav>
-        <ul>
     
-        <li><a href="index.php">Domov</a></li>
-        <li><a href="menu1.php">Menu</a></li>
-        <li class="mobile"><a href="location.html">Location</a></li>
-        <li class="mobile"><a href="contact.html">Contact</a></li>
-        <li class="logo"><a href="index.php">Sofa World</a></li>
-        <li class="desktop"><a href="location.html">Location</a></li>
-        <li class="desktop"><a href="contact.html">Contact</a></li>
-        
-        </ul>
-        </nav>
-    </header>
+    <?php include('header.php'); ?>
+    
     <section class="features">
     <figure>
         <a href="sofa.php">
             <img src="img/sofa.jpg" alt="sofa">
         </a>  
-        <figcaption>sofas</figcaption> 
+        <figcaption>Sofas</figcaption> 
     </figure>
     <figure>
         <a href="seats.html">
