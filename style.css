@@ -99,3 +99,67 @@ input[type="checkbox"]{
   }
 }
 
+footer {
+    bottom: 0px;
+    height: 250px;
+    background-color: rgb(17, 72, 81);
+    color:rgb(251, 219, 74);
+    font-family: Verdana,sans-serif;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.table-footer{
+    height: 100px;
+    color: rgb(251, 219, 74);
+    float: right;
+    width: 80%;
+}
+
+.table-footer th{
+    font-size: 25px;
+    text-align: left;
+    text-shadow: 2px 2px black;
+}
+
+.table-footer td {
+    padding: 10px;
+    text-align: left;
+}
+
+.sub-footer{
+    height: 200px;
+
+}
+
+td a{
+    text-decoration: none;
+    color: rgb(251, 219, 74);
+
+}
+
+td a:hover{
+    text-decoration: underline;
+
+}
+
+footer center {
+    text-shadow:  1px 1px black;
+}
+
+table tr .products{
+    width: 20%;
+}
+
+
+
+.photo {
+    width: 240px;
+    height: 200px;
+    float: left;
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+

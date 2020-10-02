@@ -8,5 +8,27 @@
   <body>
   <?php include ('header.php') ; ?>
 
+  <section class="features">
+    <figure>
+        <a href="sofa.php">
+            <img src="img/sofa.jpg" alt="sofa">
+        </a>
+        <figcaption>Sofas</figcaption>
+    </figure>
+    <figure>
+        <a href="seats.html">
+            <img src="img/seat.jpg" alt="chair">
+        </a>
+
+    </section>
+
+
+
+
+
+
+
+<footer> <?php include ('footer.php') ; ?> </footer>
+
 
 </body>
